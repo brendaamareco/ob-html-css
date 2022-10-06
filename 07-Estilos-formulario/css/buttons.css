@@ -1,0 +1,44 @@
+button
+{
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button svg
+{
+    padding: 10px;
+}
+
+#google-btn
+{
+    display: flex;
+    flex-grow: 1;
+    padding: 2px;
+    background-color: #1a73e8;
+    color: white;
+}
+
+#google-btn:hover
+{
+    opacity: 0.75;
+}
+
+#google-btn svg
+{
+    width: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: white;
+}
+
+#google-btn span
+{
+    margin: auto;
+    font-weight: bold;
+}
+
+#twitter-btn svg
+{
+    width: 14px;
+}
