@@ -1,0 +1,51 @@
+.sign-in-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sign-in-form .input-group
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-in-form label 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.sign-in-form input
+{
+    padding: 16px 20px;
+    border: 1px solid #F3F3F4;
+    border-radius: 6px;
+    outline: none;
+    transition: box-shadow 0.2s;
+    background-color: #F3F3F4;
+}
+
+.sign-in-form input:not([type="checkbox"]):hover, .sign-in-form input:not([type="checkbox"]):focus
+{
+    background-color: white;
+    border-color: #FFBBDB;
+    box-shadow: 0px 0px 0px 5px rgba(255,187,219,0.25);
+}
+
+.sign-in-form .terms span
+{
+    font-weight: lighter;
+}
+
+.sign-in-form .terms input
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
