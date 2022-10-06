@@ -5,16 +5,11 @@ button
     cursor: pointer;
 }
 
-button svg
-{
-    padding: 10px;
-}
-
 #google-btn
 {
     display: flex;
-    flex-grow: 1;
     padding: 2px;
+    font-size: 12pt;
     background-color: #1a73e8;
     color: white;
 }
@@ -27,6 +22,7 @@ button svg
 #google-btn svg
 {
     width: 20px;
+    padding: 10px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     background-color: white;
@@ -34,11 +30,12 @@ button svg
 
 #google-btn span
 {
+    padding: 0 36px;
     margin: auto;
-    font-weight: bold;
 }
 
 #twitter-btn svg
 {
     width: 14px;
+    padding: 10px 14px;
 }
