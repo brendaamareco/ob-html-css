@@ -1,33 +1,4 @@
-.col
+div
 {
-    background-color: blue;
-    color: white;
-}
-
-.col-sm
-{
-    background-color: blueviolet;
-    color: white;
-}
-
-.col-md
-{
-    background-color: green;
-    color: white;
-}
-
-.col-lg
-{
-    background-color: yellow;
-}
-
-.col-xl
-{
-    background-color: orange;
-}
-
-.col-xxl
-{
-    background-color: red;
-    color: white;
+    background-color: plum;
 }
