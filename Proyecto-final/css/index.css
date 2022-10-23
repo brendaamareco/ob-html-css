@@ -1,3 +1,30 @@
+.logo {
+  width: 100px;
+}
 
+.font-link, .link, .nav-link, .btn {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #0052FF;
+}
+.btn-main:hover {
+  background-color: #0a46e4;
+  color: #fff;
+}
+.btn-transparent:hover {
+  color: #235cf1;
+}
+
+.nav-link {
+  color: #050f19;
+}
+
+.link {
+  color: #235cf1;
+}
 
 /*# sourceMappingURL=index.css.map */

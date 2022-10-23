@@ -1,0 +1,47 @@
+@use "colors";
+
+.logo
+{
+    width: 100px;
+}
+
+.font-link
+{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.btn
+{
+    @extend .font-link;
+
+    &-main
+    {
+        color: #fff;
+        background-color: colors.$main;
+    
+        &:hover
+        {
+            background-color: colors.$main-dark;
+            color: #fff;
+        }
+    }
+
+    &-transparent:hover
+    {
+        color: colors.$main-light;
+    }
+}
+
+.nav-link
+{
+    @extend .font-link;
+    color: colors.$dark-gray;
+}
+
+.link
+{
+    @extend .font-link;
+    color: colors.$main-light;
+}
+
