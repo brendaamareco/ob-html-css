@@ -7,8 +7,15 @@
 
 .font-link
 {
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 600;
+}
+
+.btn-nav-long
+{
+    width: 35%;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .btn
@@ -27,9 +34,14 @@
         }
     }
 
-    &-transparent:hover
+    &-transparent
     {
-        color: colors.$main-light;
+        border: 2px solid colors.$main-light;
+
+        &:hover
+        {
+            color: colors.$main-light;
+        }
     }
 }
 
@@ -45,3 +57,17 @@
     color: colors.$main-light;
 }
 
+@media (min-width: 992px)
+{
+    .btn-nav-long
+    {
+        width: auto;
+        padding: 0.375rem 0.75rem;
+        margin-bottom: 0px; 
+    }
+
+    .btn-transparent
+    {
+        border: 0px;
+    }
+}
