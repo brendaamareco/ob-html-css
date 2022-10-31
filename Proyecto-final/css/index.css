@@ -56,6 +56,14 @@
   font-weight: 600;
 }
 
+.section {
+  margin: 4rem auto;
+}
+
+.mt-10 {
+  margin-top: 4rem;
+}
+
 @media (min-width: 992px) {
   .btn-nav-long {
     width: auto;
