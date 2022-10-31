@@ -43,6 +43,10 @@
   text-decoration: none;
 }
 
+.cripto-icon {
+  width: 2.3rem;
+}
+
 @media (min-width: 992px) {
   .btn-nav-long {
     width: auto;
