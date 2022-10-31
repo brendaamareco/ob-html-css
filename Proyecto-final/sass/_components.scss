@@ -75,6 +75,11 @@
     width: 2.3rem;
 }
 
+.icon-lg
+{
+    width: 3.6rem;
+}
+
 .custom-list-group-item
 {
     display: flex;
@@ -85,14 +90,19 @@
     font-weight: 600;
 }
 
+.custom-card-item
+{
+    width: calc((100% / 3) - spacing.$spacing-1);
+}
+
 .section
 {
-    margin: spacing.$margin-10 auto;
+    margin: spacing.$spacing-4 auto;
 }
 
 .mt-10
 {
-    margin-top: spacing.$margin-10;
+    margin-top: spacing.$spacing-4;
 }
 
 @media (min-width: 992px)
