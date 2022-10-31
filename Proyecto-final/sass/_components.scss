@@ -27,6 +27,12 @@
         color: #fff;
         background-color: colors.$main;
     
+
+        &-lg
+        {
+            height: 4rem;
+        }
+
         &:hover
         {
             background-color: colors.$main-dark;
