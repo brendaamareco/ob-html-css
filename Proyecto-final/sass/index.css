@@ -37,6 +37,10 @@
 
 .link {
   color: #235cf1;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {

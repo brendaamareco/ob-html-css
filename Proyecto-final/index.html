@@ -58,8 +58,8 @@
     </nav>
   </header>
   <main>
-    <section>
-      <div class="col-11 col-lg-10 d-flex mt-4 mx-auto align-items-center">
+    <section class="col-11 col-lg-10 my-4 mx-auto">
+      <div class="d-flex mt-4 align-items-center">
         <div class="p-4 mt-4">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="HeroPill__NakedBitcoinIcon-sc-16ndsef-1 epDkoW"><path d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z" fill="#1652F0"></path><path d="M17.274 10.515c.235-1.572-.962-2.417-2.599-2.981l.531-2.13-1.296-.323-.517 2.074c-.34-.086-.69-.165-1.039-.245l.521-2.087L11.58 4.5l-.53 2.13c-.283-.065-.56-.128-.829-.196l.002-.007-1.788-.446-.345 1.385s.962.22.942.234c.525.13.62.478.603.754L9.03 10.78c.036.01.083.023.135.043l-.137-.034-.848 3.4c-.064.158-.227.398-.595.307.014.019-.941-.235-.941-.235L6 15.745l1.688.42c.313.08.62.162.923.239l-.537 2.154 1.296.322.53-2.13c.355.096.698.184 1.034.268l-.53 2.121 1.297.323.536-2.15c2.211.419 3.873.25 4.573-1.75.564-1.61-.028-2.538-1.191-3.144.847-.195 1.485-.752 1.655-1.903zm-2.963 4.153c-.4 1.61-3.11.74-3.99.522l.713-2.854c.879.22 3.697.654 3.277 2.332zm.402-4.176c-.365 1.464-2.621.72-3.353.537l.645-2.587c.731.182 3.089.522 2.708 2.05z" fill="#fff"></path></svg>
           <a href="#" class="link px-2">Jump start your portfolio</a>
@@ -76,8 +76,110 @@
         <img src="assets/images/mobile.jpg" alt="Mobile app" width="35%" class="d-none d-md-block mt-4"/>
       </div>
     </section>
+
+    <section class="col-lg-10 mx-auto my-4">
+      <table class="table table-hover">
+        <thead>
+          <tr class="text-muted">
+            <th scope="col" class="fw-normal">#</th>
+            <th scope="col" class="fw-normal">Name</th>
+            <th scope="col" class="fw-normal">Price</th>
+            <th scope="col" class="fw-normal">Change</th>
+            <th scope="col" class="fw-normal">Chart</th>
+            <th scope="col" class="fw-normal">Trade</th>
+          </tr>
+        </thead>
+        <tbody class="align-middle">
+          <tr>
+            <th scope="row" class="text-muted fw-normal">1</th>
+            <td>
+              <img src="assets/images/crypto-icons/bitcoin.png" width="8%"/>
+              <span class="mx-3">Bitcoin</span>
+              <span class="text-muted">BTC</span>
+            </td>
+            <td>
+              <span>ARS 3,223,585.40</span>
+            </td>
+            <td>
+              <span class="text-danger">-0.87%</span>
+            </td>
+            <td>
+              <i class="fa-solid fa-chart-line"></i>
+            </td>
+            <td>
+              <button class="btn btn-success">Buy</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row" class="text-muted fw-normal">2</th>
+            <td>
+              <img src="assets/images/crypto-icons/ethereum.png" width="8%"/>
+              <span class="mx-3">Ethereum</span>
+              <span class="text-muted">ETH</span>
+            </td>
+            <td>
+              <span>ARS 248,459.33</span>
+            </td>
+            <td>
+              <span class="text-danger">-1.78%</span>
+            </td>
+            <td>
+              <i class="fa-solid fa-chart-line"></i>
+            </td>
+            <td>
+              <button class="btn btn-success">Buy</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row" class="text-muted fw-normal">3</th>
+            <td>
+              <img src="assets/images/crypto-icons/cardano.png" width="8%"/>
+              <span class="mx-3">Cardano</span>
+              <span class="text-muted">ADA</span>
+            </td>
+            <td>
+              <span>ARS 63.46</span>
+            </td>
+            <td>
+              <span class="text-danger">-3.30%</span>
+            </td>
+            <td>
+              <i class="fa-solid fa-chart-line"></i>
+            </td>
+            <td>
+              <button class="btn btn-success">Buy</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row" class="text-muted fw-normal">4</th>
+            <td>
+              <img src="assets/images/crypto-icons/solana.png" width="8%"/>
+              <span class="mx-3">Solana</span>
+              <span class="text-muted">SOL</span>
+            </td>
+            <td>
+              <span>ARS 3,223,585.40</span>
+            </td>
+            <td>
+              <span class="text-success">+0.44%</span>
+            </td>
+            <td>
+              <i class="fa-solid fa-chart-line"></i>
+            </td>
+            <td>
+              <button class="btn btn-success">Buy</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
   </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0fe41b2922.js" crossorigin="anonymous"></script>
 </html>
