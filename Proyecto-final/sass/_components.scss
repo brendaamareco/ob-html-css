@@ -61,6 +61,7 @@
 {
     @extend .font-link;
     color: colors.$main-light;
+    text-decoration: none;
 }
 
 @media (min-width: 992px)
