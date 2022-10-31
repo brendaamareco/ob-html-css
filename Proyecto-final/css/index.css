@@ -43,8 +43,17 @@
   text-decoration: none;
 }
 
-.cripto-icon {
+.icon {
   width: 2.3rem;
+}
+
+.custom-list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border: 0px;
+  font-weight: 600;
 }
 
 @media (min-width: 992px) {
