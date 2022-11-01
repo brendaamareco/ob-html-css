@@ -106,6 +106,12 @@
     margin-top: spacing.$spacing-4;
 }
 
+.py-10
+{
+    padding-top: spacing.$spacing-4;
+    padding-bottom: spacing.$spacing-4;
+}
+
 .ps-10
 {
     padding-left: spacing.$spacing-4;
@@ -114,6 +120,11 @@
 .bg-main
 {
     background-color: colors.$main;
+}
+
+.bg-dark-green
+{
+    background-color: colors.$dark-green;
 }
 
 @media (min-width: 992px)
