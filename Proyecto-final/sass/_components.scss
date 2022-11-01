@@ -90,12 +90,6 @@
     font-weight: 600;
 }
 
-.custom-card-item-3
-{
-    @include spacing.calcEquitativeWidth(3, spacing.$spacing-1);
-}
-
-
 .section
 {
     margin: spacing.$spacing-4 auto;
@@ -139,10 +133,5 @@
     .btn-transparent
     {
         border: 0px;
-    }
-
-    .custom-card-item-lg-5
-    {
-        @include spacing.calcEquitativeWidth(5, spacing.$spacing-1);
     }
 }

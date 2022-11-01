@@ -60,10 +60,6 @@
   font-weight: 600;
 }
 
-.custom-card-item-3 {
-  width: calc(33.3333333333% - 1rem);
-}
-
 .section {
   margin: 4rem auto;
 }
@@ -97,9 +93,6 @@
   }
   .btn-transparent {
     border: 0px;
-  }
-  .custom-card-item-lg-5 {
-    width: calc(20% - 1rem);
   }
 }
 
