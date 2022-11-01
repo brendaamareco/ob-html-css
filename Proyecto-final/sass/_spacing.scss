@@ -1,2 +1,7 @@
 $spacing-4: 4rem;
 $spacing-1: 1rem;
+
+@mixin calcEquitativeWidth($itemsQuantity, $spaceWidth) 
+{
+    width: calc((100% / $itemsQuantity) - $spaceWidth);
+}
