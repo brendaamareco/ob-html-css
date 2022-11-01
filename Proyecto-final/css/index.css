@@ -72,6 +72,10 @@
   margin-top: 4rem;
 }
 
+.ps-10 {
+  padding-left: 4rem;
+}
+
 .bg-main {
   background-color: #0052FF;
 }
