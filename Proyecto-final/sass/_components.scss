@@ -105,6 +105,11 @@
     margin-top: spacing.$spacing-4;
 }
 
+.bg-main
+{
+    background-color: colors.$main;
+}
+
 @media (min-width: 992px)
 {
     .btn-nav-long
